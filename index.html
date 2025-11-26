@@ -1,1 +1,85 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freaky - Milk Tea Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"> Freaky Milk Tea </li>
+            <li><a onclick="showPage('home')">Home</a></li>
+            <li><a onclick="showPage('about')">About</a></li>
+            <li><a onclick="showPage('menu')">Menu</a></li>
+            <li><a onclick="showPage('contact')">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div id="home" class="page active">
+            <div class="hero">
+                <h1>Welcome to Freaky Milk Tea</h1>
+                <p>Discover the Perfect Blend of Tea & Happiness</p>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                </div>
+                <button class="carousel-btn prev" onclick="prevSlide()">‹</button>
+                <button class="carousel-btn next" onclick="nextSlide()">›</button>
+                <div class="carousel-dots" id="dots"></div>
+            </div>
+        </div>
+
+        <div id="about" class="page">
+            <div class="about-content">
+                <h2>About Freaky Milk Tea</h2>
+                <p> ... </p>
+                <p>...</p>
+                <p>...</p>
+                <p>..</p>
+            </div>
+        </div>
+
+        <div id="menu" class="page">
+            <div class="about-content">
+                <h2>Our Menu</h2>
+                <div class="menu-grid" id="menuGrid"></div>
+            </div>
+        </div>
+
+        <div id="contact" class="page">
+            <div class="contact-content">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Visit us at our store or get in touch through any of the following channels:</p>
+                <div class="contact-info">
+                    <div><strong>Address:</strong> Sta. Ana Avenue, Davao City, Philippines, 8000</div>
+                    <div><strong>Phone:</strong> (082) 221 9071</div>
+                    <div><strong>Email:</strong> holycrossdavao@hcdc.edu.ph</div>
+                    <div><strong>Hours:</strong> Tuesday - Friday, 9:00 AM - 5:00 PM</div>
+                </div>
+                <p style="margin-top: 2rem;">!!!!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-icon" onclick="toggleCart()">
+        🛒
+        <span class="cart-count" id="cartCount">0</span>
+    </div>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total" id="cartTotal">Total: $0.00</div>
+            <button class="btn close-cart" onclick="toggleCart()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+      </html>
