@@ -80,9 +80,13 @@ This is a professional single-page application for "Freaky Milk Tea" - a milk te
 
 4. **Contact Page**:
    - Contact cards (Address, Phone, Email, Hours)
-   - Social media links section
 
-5. **Shopping Cart**:
+5. **Developers Page** (accessible via mobile menu):
+   - Team member cards with roles
+   - Ej (Main Developer)
+   - Jam, Miko, Padang, Tapungan (Ideas & Design)
+
+6. **Shopping Cart**:
    - Floating cart icon with item count badge
    - Slide-in cart panel
    - Quantity controls (+/-)
