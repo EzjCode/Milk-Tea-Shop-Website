@@ -1,48 +1,101 @@
 # Freaky Milk Tea Shop Website
 
 ## Overview
-This is a static single-page application for "Freaky Milk Tea" - a milk tea shop website. The site features a carousel showcase, menu with shopping cart functionality, about section, and contact information.
+This is a professional single-page application for "Freaky Milk Tea" - a milk tea shop website built as a school project. The site features a modern design with carousel showcase, menu with shopping cart functionality, about section with company values, testimonials, and contact information.
 
 **Current State**: Fully functional and ready to use. The website is served using a Python HTTP server on port 5000.
 
 ## Recent Changes
+- **November 29, 2025**: Major UI/UX enhancement
+  - Redesigned entire website with professional business look
+  - Added Google Fonts (Playfair Display & Poppins) for elegant typography
+  - Expanded menu to 15 milk tea variants with realistic PHP prices
+  - Added menu filtering by category (Classic, Specialty, Fruit Tea)
+  - Implemented improved cart with quantity controls
+  - Added "Featured Drinks" carousel with popular items
+  - Added "Why Choose Us" features section
+  - Added customer testimonials section
+  - Added professional footer with quick links
+  - Added notification system for cart actions
+  - Mobile-responsive design with hamburger menu
+  - Added all product images from stock photos
+
 - **November 29, 2025**: Initial setup for Replit environment
-  - Added missing images folder with stock images for all 6 milk tea variants
   - Created Python HTTP server (server.py) to serve static files on port 5000
   - Configured workflow to run the web server
   - Added .gitignore for Python and project files
-  - Server configured with no-cache headers for proper Replit iframe functionality
 
 ## Project Architecture
 
 ### Structure
 ```
 .
-├── index.html          # Main HTML page
-├── styles.css          # All CSS styling
-├── script.js           # JavaScript for interactivity
+├── index.html          # Main HTML page with all sections
+├── styles.css          # Professional CSS styling with CSS variables
+├── script.js           # JavaScript for interactivity and cart
 ├── server.py           # Python HTTP server for Replit
-├── images/             # Product images
+├── images/             # Product images (15 milk tea variants)
 │   ├── classic.jpg
 │   ├── taro.jpg
 │   ├── matcha.jpg
 │   ├── thai.jpg
 │   ├── brownsugar.jpg
-│   └── wintermelon.jpg
+│   ├── wintermelon.jpg
+│   ├── okinawa.jpg
+│   ├── honeydew.jpg
+│   ├── strawberry.jpg
+│   ├── mango.jpg
+│   ├── oolong.jpg
+│   ├── jasmine.jpg
+│   ├── cookies.jpg
+│   ├── peach.jpg
+│   └── lychee.jpg
+├── replit.md           # This documentation file
 └── .gitignore
 ```
 
 ### Technology Stack
-- **Frontend**: Pure HTML5, CSS3, and vanilla JavaScript
+- **Frontend**: Pure HTML5, CSS3 (with CSS variables), and vanilla JavaScript
+- **Fonts**: Google Fonts (Playfair Display for headings, Poppins for body)
 - **Server**: Python 3.11 built-in HTTP server
 - **No frameworks or build tools required**
 
 ### Features
-1. **Home Page**: Hero section with auto-rotating carousel of milk tea products
-2. **About Page**: Information about the shop
-3. **Menu Page**: Grid display of all products with "Add to Cart" functionality
-4. **Contact Page**: Store location, hours, and contact information
-5. **Shopping Cart**: Floating cart icon with modal to view/manage cart items
+1. **Home Page**:
+   - Hero section with call-to-action buttons
+   - Statistics display (15+ Flavors, 10K+ Customers, 5 Years)
+   - Featured drinks carousel with auto-rotation
+   - "Why Choose Us" features grid
+   - Customer testimonials
+
+2. **About Page**:
+   - Company story and journey
+   - Core values (Quality, Customer Focus, Sustainability, Innovation)
+
+3. **Menu Page**:
+   - Category filter buttons (All, Classic, Specialty, Fruit Tea)
+   - Grid display of 15 products with images, prices, descriptions
+   - "Popular" badges on featured items
+   - Add to Cart functionality
+
+4. **Contact Page**:
+   - Contact cards (Address, Phone, Email, Hours)
+   - Social media links section
+
+5. **Shopping Cart**:
+   - Floating cart icon with item count badge
+   - Slide-in cart panel
+   - Quantity controls (+/-)
+   - Order total calculation
+   - Checkout button with notification
+
+### Menu Categories
+- **Classic**: Classic Milk Tea, Thai Milk Tea, Wintermelon, Oolong, Jasmine
+- **Specialty**: Taro, Matcha, Brown Sugar, Okinawa, Cookies & Cream
+- **Fruit Tea**: Honeydew, Strawberry, Mango, Peach Oolong, Lychee Green Tea
+
+### Price Range
+- Prices range from ₱89.00 to ₱119.00 (Philippine Peso)
 
 ### Server Configuration
 - Port: 5000 (required for Replit webview)
@@ -55,7 +108,12 @@ The "Web Server" workflow runs `python server.py` and serves the site at port 50
 ## Deployment
 The site is configured for static deployment. All files in the root directory are served as-is.
 
+## User Preferences
+- This is a school project - no database needed
+- Keep the same structure (Home, About, Menu, Contact, Cart)
+- Professional business website design preferred
+
 ## Notes
-- All milk tea items currently have $0.00 prices and "NONE" descriptions - these are placeholders
-- Images are stock photos and may need to be replaced with actual product photos
-- Contact information may need to be updated to reflect actual business details
+- All images are stock photos
+- Contact information uses placeholder data for the school project
+- Social media links are placeholder (#) and can be updated with real links
