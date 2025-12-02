@@ -1,19 +1,19 @@
 const milkTeaVariants = [
-    { id: 1, name: 'Classic Milk Tea', price: 89.00, description: 'Our signature blend of premium black tea with creamy milk and chewy tapioca pearls.', image: 'images/classic.jpg', category: 'classic', featured: true },
-    { id: 2, name: 'Taro Milk Tea', price: 99.00, description: 'Creamy and nutty taro root blended with fresh milk and topped with boba pearls.', image: 'images/taro.jpg', category: 'specialty', featured: true },
-    { id: 3, name: 'Matcha Milk Tea', price: 109.00, description: 'Premium Japanese matcha whisked with milk for an earthy, smooth flavor.', image: 'images/matcha.jpg', category: 'specialty', featured: true },
-    { id: 4, name: 'Thai Milk Tea', price: 99.00, description: 'Bold and aromatic Thai tea with condensed milk, served over ice.', image: 'images/thai.jpg', category: 'classic', featured: true },
-    { id: 5, name: 'Brown Sugar Milk Tea', price: 119.00, description: 'Caramelized brown sugar with fresh milk and tiger-striped boba pearls.', image: 'images/brownsugar.jpg', category: 'specialty', featured: true },
-    { id: 6, name: 'Wintermelon Milk Tea', price: 89.00, description: 'Refreshing wintermelon syrup with smooth milk tea and tapioca.', image: 'images/wintermelon.jpg', category: 'classic', featured: true },
-    { id: 7, name: 'Okinawa Milk Tea', price: 109.00, description: 'Rich roasted brown sugar from Okinawa with premium milk tea base.', image: 'images/okinawa.jpg', category: 'specialty', featured: false },
-    { id: 8, name: 'Honeydew Milk Tea', price: 99.00, description: 'Sweet honeydew melon blended with creamy milk tea.', image: 'images/honeydew.jpg', category: 'fruit', featured: false },
-    { id: 9, name: 'Strawberry Milk Tea', price: 99.00, description: 'Fresh strawberry puree swirled with creamy milk tea.', image: 'images/strawberry.jpg', category: 'fruit', featured: false },
-    { id: 10, name: 'Mango Milk Tea', price: 99.00, description: 'Tropical mango blended with smooth milk tea for a refreshing treat.', image: 'images/mango.jpg', category: 'fruit', featured: false },
-    { id: 11, name: 'Oolong Milk Tea', price: 99.00, description: 'Semi-oxidized oolong tea with a floral aroma and creamy finish.', image: 'images/oolong.jpg', category: 'classic', featured: false },
-    { id: 12, name: 'Jasmine Milk Tea', price: 89.00, description: 'Fragrant jasmine green tea with silky milk and pearls.', image: 'images/jasmine.jpg', category: 'classic', featured: false },
-    { id: 13, name: 'Cookies & Cream', price: 119.00, description: 'Crushed Oreo cookies blended with creamy milk tea base.', image: 'images/cookies.jpg', category: 'specialty', featured: false },
-    { id: 14, name: 'Peach Oolong Tea', price: 109.00, description: 'Refreshing peach flavor with premium oolong tea, no milk.', image: 'images/peach.jpg', category: 'fruit', featured: false },
-    { id: 15, name: 'Lychee Green Tea', price: 99.00, description: 'Sweet lychee fruit paired with refreshing green tea.', image: 'images/lychee.jpg', category: 'fruit', featured: false }
+    { id: 1, name: 'Classic Milk Tea', price: 59.00, description: 'Our signature blend of premium black tea with creamy milk and chewy tapioca pearls.', image: 'images/classic.jpg', category: 'classic', featured: true },
+    { id: 2, name: 'Taro Milk Tea', price: 64.00, description: 'Creamy and nutty taro root blended with fresh milk and topped with boba pearls.', image: 'images/taro.jpg', category: 'specialty', featured: true },
+    { id: 3, name: 'Matcha Milk Tea', price: 55.00, description: 'Premium Japanese matcha whisked with milk for an earthy, smooth flavor.', image: 'images/matcha.jpg', category: 'specialty', featured: true },
+    { id: 4, name: 'Thai Milk Tea', price: 65.00, description: 'Bold and aromatic Thai tea with condensed milk, served over ice.', image: 'images/thai.jpg', category: 'classic', featured: true },
+    { id: 5, name: 'Brown Sugar Milk Tea', price: 45.00, description: 'Caramelized brown sugar with fresh milk and tiger-striped boba pearls.', image: 'images/brownsugar.jpg', category: 'specialty', featured: true },
+        { id: 6, name: 'Wintermelon Milk Tea', price: 50.00, description: 'Refreshing wintermelon syrup with smooth milk tea and tapioca.', image: 'images/wintermelon.jpg', category: 'classic', featured: true },
+        { id: 7, name: 'Okinawa Milk Tea', price: 51.00, description: 'Rich roasted brown sugar from Okinawa with premium milk tea base.', image: 'images/okinawa.jpg', category: 'specialty', featured: false },
+    { id: 8, name: 'Honeydew Milk Tea', price: 59.00, description: 'Sweet honeydew melon blended with creamy milk tea.', image: 'images/honeydew.jpg', category: 'fruit', featured: false },
+    { id: 9, name: 'Strawberry Milk Tea', price: 64.00, description: 'Fresh strawberry puree swirled with creamy milk tea.', image: 'images/strawberry.jpg', category: 'fruit', featured: false },
+    { id: 10, name: 'Mango Milk Tea', price: 45.00, description: 'Tropical mango blended with smooth milk tea for a refreshing treat.', image: 'images/mango.jpg', category: 'fruit', featured: false },
+    { id: 11, name: 'Oolong Milk Tea', price: 55.00, description: 'Semi-oxidized oolong tea with a floral aroma and creamy finish.', image: 'images/oolong.jpg', category: 'classic', featured: false },
+    { id: 12, name: 'Jasmine Milk Tea', price: 54.00, description: 'Fragrant jasmine green tea with silky milk and pearls.', image: 'images/jasmine.jpg', category: 'classic', featured: false },
+    { id: 13, name: 'Cookies & Cream', price: 64.00, description: 'Crushed Oreo cookies blended with creamy milk tea base.', image: 'images/cookies.jpg', category: 'specialty', featured: false },
+    { id: 14, name: 'Peach Oolong Tea', price: 45.00, description: 'Refreshing peach flavor with premium oolong tea, no milk.', image: 'images/peach.jpg', category: 'fruit', featured: false },
+    { id: 15, name: 'Lychee Green Tea', price: 40.00, description: 'Sweet lychee fruit paired with refreshing green tea.', image: 'images/lychee.jpg', category: 'fruit', featured: false }
 ];
 
 let currentSlide = 0;
