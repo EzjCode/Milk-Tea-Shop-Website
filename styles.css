@@ -602,7 +602,7 @@ nav {
 
 .about-story {
     background: var(--white);
-    padding: 2.5rem;
+    padding: 2.5rem;    
     border-radius: var(--radius);
     box-shadow: var(--shadow);
 }
